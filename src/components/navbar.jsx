@@ -86,12 +86,13 @@ const Navbar = () => {
             </a>
           </li>
           <button className="text-white flex justify-around bg-slate-800 hover:bg-black items-center border ring-1 rounded-full p-1">
-            <img
+            {/* <img
               className="invert"
               width={30}
               src="/icons/githublogo.png"
               alt="GitHub Logo"
-            />
+            /> */}
+            {/* <img src="/icons/open.png" alt="" srcset="" /> */}
             <p>GitHub</p>
           </button>
         </ul>
