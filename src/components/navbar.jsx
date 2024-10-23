@@ -16,7 +16,7 @@ const Navbar = () => {
           <span className="text-lime-400">/ &gt;</span>
         </div>
 
-        {/* Hamburger Menu Icon for Mobile */}
+        
         <button
           onClick={toggleMenu}
           className="text-white sm:hidden focus:outline-none"
@@ -37,7 +37,7 @@ const Navbar = () => {
           </svg>
         </button>
 
-        {/* Desktop Menu */}
+        
         <ul className="hidden sm:flex gap-4 text-white">
           <li>
             <a className="hover:font-bold" href="/">
@@ -61,13 +61,13 @@ const Navbar = () => {
             className="invert"
             width={30}
             src="/icons/githublogo.png"
-            alt="GitHub Logo"
+            alt=""
           />
           <p>GitHub</p>
         </button>
       </div>
 
-      {/* Mobile Menu */}
+     
       {menuOpen && (
         <ul className="sm:hidden flex flex-col items-center gap-4 text-white bg-slate-800 py-2">
           <li>
@@ -86,13 +86,13 @@ const Navbar = () => {
             </a>
           </li>
           <button className="text-white flex justify-around bg-slate-800 hover:bg-black items-center border ring-1 rounded-full p-1">
-            {/* <img
+            <img
               className="invert"
               width={30}
               src="/icons/githublogo.png"
               alt="GitHub Logo"
-            /> */}
-            {/* <img src="/icons/open.png" alt="" srcset="" /> */}
+            />
+           
             <p>GitHub</p>
           </button>
         </ul>

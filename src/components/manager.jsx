@@ -185,7 +185,7 @@ const manager = () => {
       
       <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
       {/* <div class="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]"></div> */}
-      <div className="p-2 md:px-0 md:mycontainer min-h-[85.8vh]">
+      <div className="p-2 md:px-0 md:mycontainer min-h-[93.8vh]">
         <h1 className="text-xl text font-bold text-center text-white">
           <span className="text-lime-400">&lt; Key</span>
           Keeper
