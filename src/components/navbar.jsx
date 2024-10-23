@@ -85,7 +85,7 @@ const Navbar = () => {
               Contact Us
             </a>
           </li>
-          <button className="text-white flex justify-around bg-slate-800 hover:bg-black items-center border ring-1 rounded-full p-1">
+          {/* <button className="text-white flex justify-around bg-slate-800 hover:bg-black items-center border ring-1 rounded-full p-1">
             <img
               className="invert"
               width={30}
@@ -94,7 +94,7 @@ const Navbar = () => {
             />
            
             <p>GitHub</p>
-          </button>
+          </button> */}
         </ul>
       )}
     </nav>
