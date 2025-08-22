@@ -4,8 +4,7 @@
 A secure, user-friendly password manager with modern UI and MongoDB integration.
 
 ## Demo
-
-https://dhansukhkothuru.github.io/key-keeper/
+https://kothurudhansukh.github.io/key-keeper/
 ## Tech Stack 
 - **Node.js:** Backend JavaScript runtime environment
 - **Express.js:** Web framework for Node.js
@@ -76,3 +75,4 @@ http://localhost:3000
 - Receive toast notifications for user actions like saving or deleting a password.
 
 3. All passwords and data are stored in the MongoDB database for persistence.
+
